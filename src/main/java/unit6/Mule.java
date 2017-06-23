@@ -6,4 +6,10 @@ public class Mule implements IHorse, IAnimal {
     m.breath();
     m.run();
   }
+
+  @Override
+  public void run() {
+    // TODO Auto-generated method stub
+    IAnimal.super.run();
+  }
 }
